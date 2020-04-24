@@ -8,3 +8,11 @@ function forLoop(array) {
     }
     return array
   }
+
+function whileLoop(n) {
+ let n = Math.floor(Math.random() * 100)
+}
+while(whileLoop(n)) {
+  console.log(n)
+  n < 0
+}
