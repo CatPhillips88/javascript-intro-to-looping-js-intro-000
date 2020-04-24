@@ -12,7 +12,7 @@ function forLoop(array) {
 function whileLoop(n) {
 return Math.floor(Math.random() * 100)
 }
-while(whileLoop()) {
+while(whileLoop(n)) {
   console.log('done')
-  n < 0
+  n > 0
 }
