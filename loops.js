@@ -1,12 +1,12 @@
-function forLoop(array){
-  let arrayFound = []
-  for(let i = 0; i < 25; i++) {
+function forLoop(array) {
+  let makeArray = []
+  for (let i = 0; i < 25; i++) {
     if(i === 1) {
-      array.push('I am 1 strange loop.')
-    } else {
-      array.push(`I am ${i} strange loops.`)
+      return makeArray.push("I am 1 strange loop") {
+      } else {
+        return makeArray.push(`I am ${i} strange strange loops.`)
+      }
     }
   }
-}
-return arrayFound
+  return makeArray
 }
