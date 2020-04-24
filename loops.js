@@ -13,6 +13,6 @@ function whileLoop(n) {
  let n = Math.floor(Math.random() * 100)
 }
 while(whileLoop(n)) {
-  console.log(n)
+  console.log('done')
   n < 0
 }
