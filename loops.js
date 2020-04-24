@@ -10,5 +10,3 @@ function forLoop(array) {
   }
   return makeArray
 }
-
-
